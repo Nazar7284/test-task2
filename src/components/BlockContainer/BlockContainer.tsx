@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from "react";
 import { Rnd } from "react-rnd";
 import debounce from "lodash.debounce";
-import { IBlock, initialBlocks } from "../data/initialBlock";
+import { IBlock, initialBlocks } from "../../data/initialBlock";
 
 const BlockContainer: React.FC = () => {
   const [blocks, setBlocks] = useState<IBlock[]>([]);

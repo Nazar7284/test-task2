@@ -1,13 +1,8 @@
 import React from "react";
-
-interface ITransaction {
-  from: string;
-  to: string;
-  sum: number;
-}
+import { Transaction } from "../TradingNotificationsPage";
 
 interface ITransactionsListProps {
-  transactions: ITransaction[];
+  transactions: Transaction[];
 }
 
 const TransactionsList: React.FC<ITransactionsListProps> = ({
