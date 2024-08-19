@@ -6,7 +6,7 @@ import PublicRoute from "./routes";
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/test-task2">
       <Suspense fallback={<div>Завантаження...</div>}>
         <PublicRoute />
       </Suspense>
